@@ -183,7 +183,7 @@ async def generate_summary(text_or_youtube_url: str, summary_type: str, api_key:
     try:
         genai.configure(api_key=api_key)
         # Using the requested experimental model
-        model_name = 'gemini-2.5-pro-exp-03-25'
+        model_name = 'gemini-2.0-flash'
         logger.warning(f"Using EXPERIMENTAL Gemini model: {model_name}")
         model = genai.GenerativeModel(model_name)
 
