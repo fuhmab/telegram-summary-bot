@@ -1,0 +1,6 @@
+# requirements.txt
+python-telegram-bot[ext]>=20.0 # Use >=20.0 for ApplicationBuilder, add [ext]
+requests
+beautifulsoup4
+google-generativeai
+youtube-transcript-api
